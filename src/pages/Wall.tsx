@@ -23,7 +23,8 @@ export default function Wall() {
         "Authorization": "im8pIEUKwNN59iRowAFwClbXrzpwgISkhdcEYcjK4EuQI0TGNq35N7Pk6Slo0Ouz",
         "collection":"bloggers",
         "database":"test",
-        "dataSource":"Cluster0"
+        "dataSource":"Cluster0",
+        "Access-Control-Request-Headers": "*"
       },
     };
     const res = await axios.get(
