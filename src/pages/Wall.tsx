@@ -17,7 +17,7 @@ export default function Wall() {
   }
 
   async function content() {
-    const res = await axios.get('https://data.mongodb-api.com/app/data-bjbni/endpoint/data/v1',  ) //api/bloggers
+    const res = await axios.get('https://data.mongodb-api.com/app/data-bjbni/endpoint/data/v1/action/find',  ) //api/bloggers
     setBlogContent(res.data)
   }
   useEffect(() => {
