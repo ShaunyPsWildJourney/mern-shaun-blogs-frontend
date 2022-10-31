@@ -1,9 +1,9 @@
 
-import { Typography,Button,Box, Container, Paper, CssBaseline } from "@mui/material";
+import { Typography,Button,Box, Container, Paper } from "@mui/material";
 // import * as React from "react";
 import React from 'react'; 
 import { Dispatch, SetStateAction } from "react";
-import { Link as RouterLink, useNavigate } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
 
 interface IProps  {
   setPostFinish: Dispatch<SetStateAction<boolean>>
