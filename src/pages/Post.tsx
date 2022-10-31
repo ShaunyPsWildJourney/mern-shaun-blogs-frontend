@@ -35,7 +35,8 @@ export default function Post() {
 
   // GET LAST NAME FROM GET REQUEST IF PREVIOUS USER 
   async function getLastName() {
-    const getName = await axios.get(`http://localhost:5000/api/bloggers/`, {
+    const getName = await axios.get(
+      `https://data.mongodb-api.com/app/data-bjbni/endpoint/data/v1/`, {
     })
     if (!last) {
       if (getName.data){

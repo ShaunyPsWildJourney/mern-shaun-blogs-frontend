@@ -69,7 +69,7 @@ export default function Register() {
 
     try {
       setLoading(true);
-      const data = await axios.post('http://localhost:5000/api/users/', { 
+      const data = await axios.post('https://data.mongodb-api.com/app/data-bjbni/endpoint/data/v1', { //api/users
           ...solutionForAxiosError
         } 
       );
